@@ -1,0 +1,15 @@
+:root {
+    --clr-primary: hsl(25, 97%, 53%);
+
+    --clr-neutral-100: hsl(0, 100%, 100%);
+    --clr-neutral-200: hsl(217, 12%, 63%);
+    --clr-neutral-300: hsl(213, 19%, 18%);
+    --clr-neutral-400: hsl(216, 12%, 8%);
+
+    --fw-normal: 400;
+    --fw-bold: 700;
+}
+
+body {
+    font-family: "Overpass", sans-serif;
+}
