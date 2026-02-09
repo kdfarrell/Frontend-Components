@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+
+:root {
+    
+    /* Primary */
+    --clr-teal-500: 179, 62%, 43%;
+    --clr-green-400: 71, 73%, 54%;
+
+    /* Neutral */
+    --clr-teal-100: 204, 43%, 93%;
+    --clr-gray-500: 218, 22%, 67%;
+
+    /* Font */
+    --ff-base: 'Karla', system-ui, sans-serif;
+
+    /* Font Weight */
+    --fw-extra-light: 200;
+    --fw-light: 300;
+    --fw-regular: 400;
+    --fw-bold: 700;
+
+    /* Font Size */
+    --fs-400: 1rem;
+    --fs-500: 1.25rem;
+    --fs-600: 1.5rem;
+    --fs-700: 1.75rem;
+    --fs-800: 2rem;
+}
+
+/* Resets */
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+ul, ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+span {
+    display: block;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: var(--ff-base);
+    font-size: var(--fs-400);
+
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+main {
+    margin: 1rem;  
+}
+
+.card { 
+    max-width: 640px;
+    border-radius: .5rem;
+    overflow: hidden;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+    display: grid;
+    grid-template-rows: auto 1fr;
+    grid-template-columns: 1fr 1fr;  
+}
+
+.card-header, .card-pricing, .card-benefits {
+    padding: 2rem;
+}
+
+
+/* Card Header */
+
+.card-header {
+    background-color: hsl(var(--clr-teal-100));
+    grid-column: 1 / -1;
+}
+
+.card-header h1 {
+    font-size: var(--fs-700);
+    color: hsl(var(--clr-teal-500));
+    font-weight: var(--fw-bold);
+}
+
+.card-header h2 {
+    font-size: var(--fs-500);
+    color: hsl(var(--clr-green-400));
+    font-weight: var(--fw-bold);
+}
+
+.card-header p {
+    font-size: var(--fs-400);
+    color: hsl(var(--clr-gray-500));
+    line-height: 1.5;
+    margin-bottom: 0;
+}
+
+/* Card Pricing */
+
+.card-pricing {
+    background-color: hsl(var(--clr-teal-500));
+    grid-column: 1;
+}
+
+.card-pricing h2 {
+    font-size: var(--fs-600);
+    color: hsl(var(--clr-teal-100));
+    margin-top: 0;
+}
+
+.card-pricing div p {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: .5rem;
+    margin: 0;
+
+}
+
+.card-pricing .price {
+    font-size: var(--fs-800);
+    font-weight: var(--fw-bold);
+    color: hsl(var(--clr-teal-100));
+    margin: 0 0 .5rem 0;
+}
+
+.card-pricing .price-plan {
+    font-size: var(--fs-400);
+    font-weight: var(--fw-extra-light);
+    color: var(--clr-grey-500);
+}
+
+.card-pricing .price-subtext {
+    color: hsl(var(--clr-teal-100));
+    font-weight: var(--fw-extra-light);
+    margin: 0;
+}
+
+
+.card-pricing button {
+    margin: 1.5rem 0;
+    width: 100%;
+    font-size: var(--fs-500);
+    color: hsl(var(--clr-teal-100));
+    background-color: hsl(var(--clr-green-400));
+    border: none;
+    padding: .75rem 0;
+    border-radius: .5rem;
+    margin-bottom: 0;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    cursor: pointer;
+}
+
+/* Card Benefits */
+
+.card-benefits {
+    background-color: hsl(var(--clr-teal-500), 0.9);
+    grid-column: 2;
+}
+
+.card-benefits h2 {
+    color: hsl(var(--clr-teal-100));
+    margin-top: 0;
+}
+
+.card-benefits li {
+    color: hsl(var(--clr-teal-100));
+    font-weight: var(--fw-light);
+    line-height: 1.25;
+}
+
+
+@media (max-width: 625px) {
+
+    .card {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+    }
+
+    .card-header, .card-pricing, .card-benefits {
+        grid-column: 1;
+        grid-row: auto;
+    }
+
+}
