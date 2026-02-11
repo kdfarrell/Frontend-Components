@@ -40,6 +40,8 @@ These projects focus purely on layout, design, and styling.
 17. **[Our Team UI](https://kdfarrell.github.io/Frontend-Components/html-css/Our%20Team%20UI/)**
 18. **[QR Code Component](https://kdfarrell.github.io/Frontend-Components/html-css/QR%20Code%20Card%20UI/)**
 19. **[Profile Card UI](https://kdfarrell.github.io/Frontend-Components/html-css/Profile%20Card%20UI/)**
+20. **[Single Price Grid Component UI](https://kdfarrell.github.io/Frontend-Components/html-css/Single%20Price%20Grid%20Component%20UI/)**
+
 
 ---
 
