@@ -1,0 +1,11 @@
+.rating {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .25rem;
+}
+
+.stars-container {
+  display: flex;
+  gap: .5rem;
+}
