@@ -42,6 +42,8 @@ These projects focus purely on layout, design, and styling.
 19. **[Profile Card UI](https://kdfarrell.github.io/Frontend-Components/html-css/Profile%20Card%20UI/)**
 20. **[Single Price Grid Component UI](https://kdfarrell.github.io/Frontend-Components/html-css/Single%20Price%20Grid%20Component%20UI/)**
 21. **[Social Proof Section Master UI](https://kdfarrell.github.io/Frontend-Components/html-css/Social%20Proof%20Section%20Master%20UI/)**
+22. **[Recipe Page UI](https://kdfarrell.github.io/Frontend-Components/html-css/Recipe%20Page%20UI/)**
+
 
 
 ---
