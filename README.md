@@ -55,6 +55,7 @@ These projects include interactivity and dynamic behavior using JavaScript.
 1. **[Calculator](https://kdfarrell.github.io/Frontend-Components/html-css-js/Calculator/)**
 2. **[Browser Extension Manager](https://kdfarrell.github.io/Frontend-Components/html-css-js/Browser%20Extension%20Manager/)**
 3. **[Rating Component](https://kdfarrell.github.io/Frontend-Components/html-css-js/Rating%20Component/)**
+4. **[FAQ Accordion](https://kdfarrell.github.io/Frontend-Components/html-css-js/FAQ%20Accordion/)**
 
 ---
 
