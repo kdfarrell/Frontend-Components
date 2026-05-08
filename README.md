@@ -59,6 +59,12 @@ These projects include interactivity and dynamic behavior using JavaScript.
 
 ---
 
+## Vue Components
+
+These projects are built with Vue 3.
+
+1. **[Vue Facts](https://kdfarrell.github.io/Frontend-Components/vue/vue-facts/)**
+
 ## Running the Projects
 
 To view any project locally:
