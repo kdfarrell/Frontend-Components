@@ -1,70 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" href="images/favicon-32x32.png" type="image/png">
-  <title>Rating Component</title>
-  <link rel="stylesheet" href="style.css">
-  <script src="app.js" defer></script>
+  <title>Frontend Mentor | Interactive rating component</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap"
-    rel="stylesheet">
-
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
 </head>
-
 <body>
 
-  <div class="container">
-    <form action="/submit">
-      <img src="images/icon-star.svg" alt="A star icon">
-      <h1>How did we do?</h1>
-      <p>Please let us know how we did with your support request. All feedback is appreciated to help us improve our
-        offering!</p>
-      <div class="rating-options">
-        <div class="option">
-          <label for="option1">
-            <input id="option1" type="radio" name="rating" value="1">
-            1
-          </label>
-        </div>
-
-        <div class="option">
-          <label for="option2">
-            <input id="option2" type="radio" name="rating" value="2">
-            2
-          </label>
-        </div>
-
-        <div class="option">
-          <label for="option3">
-            <input id="option3" type="radio" name="rating" value="3">
-            3
-          </label>
-        </div>
-
-        <div class="option">
-          <label for="option4">
-            <input id="option4" type="radio" name="rating" value="4">
-            4
-          </label>
-        </div>
-
-        <div class="option">
-          <label for="option5">
-            <input id="option5" type="radio" name="rating" value="5">
-            5
-          </label>
-        </div>
-
-      </div>
-      <button>Submit</button>
-    </form>
+  <!-- Rating State -->
+  <div id="rating-state" class="card">
+    <div class="star-icon">&#9733;</div>
+    <h1>How did we do?</h1>
+    <p>Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
+    <div class="ratings">
+      <button class="rating-btn" data-value="1">1</button>
+      <button class="rating-btn" data-value="2">2</button>
+      <button class="rating-btn" data-value="3">3</button>
+      <button class="rating-btn" data-value="4">4</button>
+      <button class="rating-btn" data-value="5">5</button>
+    </div>
+    <button id="submit-btn">SUBMIT</button>
   </div>
 
+  <!-- Thank You State -->
+  <div id="thankyou-state" class="card hidden">
+    <img src="images/illustration-thank-you.svg" alt="Thank you illustration">
+    <div class="selected-rating">
+      You selected <span id="selected-value"></span> out of 5
+    </div>
+    <h1>Thank you!</h1>
+    <p>We appreciate you taking the time to give a rating. If you ever need more support, don't hesitate to get in touch!</p>
+  </div>
 
 </body>
-
 </html>
