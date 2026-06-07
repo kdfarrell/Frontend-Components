@@ -50,7 +50,7 @@ This repository is a living record of my growth as a front-end developer. My aim
 | 2 | [Interactive Rating Component](https://kdfarrell.github.io/Frontend-Components/js/Rating%20Component/) | [Frontend Mentor](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI) |
 | 3 | [Browser Extension Manager](https://kdfarrell.github.io/Frontend-Components/js/Browser%20Extension%20Manager/) | [Frontend Mentor](https://www.frontendmentor.io/challenges/browser-extension-manager-ui-yNZnOfsMAp) |
 | 4 | [Calculator App](https://kdfarrell.github.io/Frontend-Components/js/Calculator/) | [Frontend Mentor](https://www.frontendmentor.io/challenges/calculator-app-9lteq5N29) |
-
+| 5 | [Article Preview Component](https://kdfarrell.github.io/Frontend-Components/js/Article%20Preview%20Component/) | [Frontend Mentor](https://www.frontendmentor.io/challenges/article-preview-component-dYBN_pYFT) |
 ---
 
 ## Vue
